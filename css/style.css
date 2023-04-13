@@ -4,10 +4,10 @@
             background-size: 1366px 1000px ;  
             color: white; 
         }
-        h1{
-            color: rgb(216, 164, 53);
+        h1,h2,h3{
+            color: #66BFBF;
         }
-        h2,h3,h4,thead{
+        h4,thead{
             color: green;
         }
 
@@ -21,4 +21,4 @@
         a{
             color: rgb(223, 145, 29);
         }
-      
+        
