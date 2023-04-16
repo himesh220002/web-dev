@@ -1,0 +1,75 @@
+/* ************************TAG SELECTOR ******************* */
+
+
+h1{
+    color: red;
+    font-size: 100px;   
+}
+a{
+    color: rgb(223, 145, 29);
+    font-size: 20px;
+}
+
+
+/* ************************CLASS SELECTOR ******************* */
+
+.melon{
+    background-color: green;
+    border: 10px solid navy;
+}
+
+.skate{
+    background-color: red;
+    border: 10px solid navy;
+
+}
+
+/* ************************ID SELECTOR ******************* */
+
+#heading{
+    color: orange;
+}
+
+#color{
+    color: coral;
+}
+.size{
+    font-size: 2rem;
+}
+.weight{
+    font-weight: 900;
+}
+.family{
+    font-family: 'Arsenal', sans-serif;
+}
+#align{
+    text-align: right;
+}
+html{
+    font-size: 30px;
+}
+
+#first{
+    color: black;
+    background-image: url('../pic1.jpg');
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 10px solid black;
+}
+#second{
+    background-image: url('../pic2.jpg');
+    width: 200px;
+    height: 200px;
+    border: solid black;
+    border-width: 20px 10px;
+    margin-left: 260px;
+}
+#third{
+    
+    background-image: url('../pic3.jpg');
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+    border: 10px solid black;
+}
