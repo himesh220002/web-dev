@@ -1,0 +1,25 @@
+img{
+    width: 100%;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+}
+body{
+    background-color: black;
+    color: white;    
+}
+h1{
+    font-family: 'Arsenal', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+p{
+    font-family: 'Arsenal', sans-serif;  
+    text-transform: capitalize;
+}
+#special{
+    
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
