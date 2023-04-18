@@ -26,6 +26,14 @@ a{
     border: 10px solid rgb(95, 8, 8);
 
 }
+.bodr{
+    border: 2px solid whitesmoke;
+    border-style:groove ;
+    background-color: rgba(14, 115, 131, 0.213);
+    border-radius: 5px;
+    padding:1px 5px;
+    
+}
 
 /* ************************ID SELECTOR ******************* */
 
