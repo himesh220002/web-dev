@@ -1,33 +1,24 @@
-img{
+.image{
     width: 100%;
     border: 5px solid whitesmoke;
+    margin-left: -5px;
     border-radius: 10px;
 }
 body{
-    background-color: black;
-    color: white;    
+    background-color: black;   
 }
 h1{
-    font-family: 'Arsenal', sans-serif;
-    font-weight: 400;
-    font-size: 40px;
     text-transform: capitalize;
+    font-size: 3rem;
+    margin: 10px;
 }
-p{
-    font-family: 'Arsenal', sans-serif;  
-    text-transform: capitalize;
-}
-#special{
+.poster{
     
     width: 50%;
     margin-left: 25%;
-    margin-top: 5%;
-}
-.bodr{
-    border: 2px solid whitesmoke;
-    border-style:groove ;
-    background-color: rgba(14, 115, 131, 0.213);
-    border-radius: 5px;
-    padding:1px 5px;
-    
+    margin-top: 100px;
+    color: white;
+    font-family: "Libre baskerville", serif;
+    text-align:center;
+    text-transform: capitalize;
 }
