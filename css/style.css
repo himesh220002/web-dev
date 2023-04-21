@@ -53,3 +53,11 @@
             padding:1px 5px;
             
         }
+        a:hover{
+            color: white;
+            background-color: rgba(199, 140, 30, 0.565);
+            
+        }
+        a{
+            text-decoration: none;
+        }
