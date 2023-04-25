@@ -7,7 +7,8 @@
         body{
             /* background-image: url('https://media.istockphoto.com/id/1063685792/photo/gradient-with-black-pearl-blue-color-modern-texture-background-degrading-fragments-smooth.jpg?b=1&s=170667a&w=0&k=20&c=xj6kzSRSmUnr6_4_AdjN5h6q327CZlL5AqPo7ImAVhk='); */
             background-size: 1366px 1000px ;  
-            background-color: #0b0518;
+            /* background-color: #0b0518; */
+            background: linear-gradient(90deg , #160e2d 20%,#0b0518 70%,rgb(42, 14, 14) 100%);
             color: whitesmoke;
         }
         h1,h2,h3{
@@ -26,6 +27,7 @@
         }
         a{
             color: rgb(223, 145, 29);
+            text-decoration: none;
         }
         form{
             background-image: url('../Anime Fansite/CSS - anime Fansite/pic4.jpg');
@@ -58,6 +60,40 @@
             background-color: rgba(199, 140, 30, 0.565);
             
         }
-        a{
+       
+        .top{
+            display: flex;  
+            flex-flow: row wrap;
+            list-style: none;
+            justify-content: flex-end;   
+            margin:0;
+            background-color: rgb(8, 59, 76);
+        }
+        .top a {
             text-decoration: none;
+            display: block;
+            padding: 1rem;
+            color: white;
+            border-left: 10px solid rgba(255,255,255,0.3);
+            border-right: 10px solid rgba(0,0,0,0.1);
+
+        }
+        .top a:hover{
+            background-color: #1565C0;
+        }
+        .upper-p{
+            display: inline-block;
+        }
+        .upper-p img{
+            display: block;
+            margin: 0px 20px 5px 5px;
+            float: left;
+        }
+        @media (max-width: 600px){
+            .top{
+                justify-content: space-around;
+
+            }
+          
+            
         }
