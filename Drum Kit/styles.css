@@ -62,7 +62,10 @@ footer {
 .red {
   color: red;
 }
-
+.set{
+  display: flex;
+  flex-direction: column;
+}
 .drum {
   outline: none;
   border: 5px solid #404B69;
@@ -73,7 +76,9 @@ footer {
   color: #926f29e3;
   text-shadow: 3px 0 #1feddf;
   border-radius: 15px;
-  display: inline-block;
+ 
+  
+  
   width: 85px;
   height: 150px;
   text-align: center;
