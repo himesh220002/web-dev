@@ -46,7 +46,7 @@ footer {
 } */
 
 .set {
-  margin: 2% auto;
+  margin: 10% auto;
 }
 
 .game-over {
@@ -65,6 +65,7 @@ footer {
 .set{
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
 }
 .drum {
   outline: none;
@@ -85,6 +86,14 @@ footer {
   margin: 10px 2px;
   background-color: white;
   background-image: url('images/images\ \(1\).jpg');
+}
+@media (max-width: 1200px) {
+  .drum{
+    font-size: 20px;
+    width: 55px;
+    height: 70px;
+  }
+  
 }
 .oct{
   background-image: url('images/images\ \(2\).jpg');
