@@ -46,7 +46,7 @@ footer {
 } */
 
 .set {
-  margin: 10% auto;
+  margin: 20px auto 100px;
 }
 
 .game-over {
@@ -62,39 +62,29 @@ footer {
 .red {
   color: red;
 }
-.set{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-}
+
 .drum {
   outline: none;
   border: 5px solid #404B69;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: 'Arvo', cursive;
   line-height: 1.5;
   font-weight: 900;
   color: #926f29e3;
   text-shadow: 3px 0 #1feddf;
   border-radius: 15px;
- 
+  display: inline-block;
   
   
-  width: 85px;
-  height: 150px;
+  width: 70px;
+  height: 100px;
   text-align: center;
-  margin: 10px 2px;
+  margin: 5px 2px;
   background-color: white;
   background-image: url('images/images\ \(1\).jpg');
 }
-@media (max-width: 1200px) {
-  .drum{
-    font-size: 20px;
-    width: 55px;
-    height: 70px;
-  }
-  
-}
+
+
 .oct{
   background-image: url('images/images\ \(2\).jpg');
 }

@@ -6,6 +6,7 @@ for(var i=0; i < noOfDrumBtn; i++){
     document.querySelectorAll("button")[i].addEventListener("click", function(){
         var buttonInnerHtml = this.innerHTML[0];
         makeSound(buttonInnerHtml);
+        buttonAnimation(buttonInnerHtml);
         
     });
 }
@@ -14,11 +15,12 @@ for(var i=0; i < noOfDrumBtn; i++){
 document.addEventListener("keypress", function(event){
     
     makeSound(event.key);
+    buttonAnimation(event.key);
     
 });
 
-function makeSound(key){
-    switch(key){
+function makeSound(key){    
+    switch(key.toLowerCase()){
         case '1': 
             
             var pianokey1 = new Audio('piano-mp3/C1.mp3');
@@ -259,5 +261,68 @@ function makeSound(key){
     }
 }    
 
+function buttonAnimation(currentKey){
+    if(currentKey ==  1){
+        currentKey = "a1";
+    }
+    else if(currentKey ==  2){
+        currentKey = "a2";
+    }
+    else if(currentKey ==  3){
+        currentKey = "a3";
+    }
+    else if(currentKey ==  4){
+        currentKey = "a4";
+    }
+    else if(currentKey ==  5){
+        currentKey = "a5";
+    }
+    else if(currentKey ==  6){
+        currentKey = "a6";
+    }
+    else if(currentKey ==  7){
+        currentKey = "a7";
+    }
+    else if(currentKey ==  8){
+        currentKey = "a8";
+    }
+    else if(currentKey ==  9){
+        currentKey = "a9";
+    }
+    else if(currentKey ==  0){
+        currentKey = "a0";
+    }
+    else if(currentKey ==  '-'){
+        currentKey = "a-";
+    }
+    else if(currentKey ===  '='){
+        currentKey = "aa";
+    }
+    else if(currentKey ===  '['){
+        currentKey = "ab";
+    }
+    else if(currentKey ===  ']'){
+        currentKey = "ac";
+    }
+    else if(currentKey ===  ';'){
+        currentKey = "ad";
+    }
+    else if(currentKey ===  ','){
+        currentKey = "ae";
+    }
+    else if(currentKey ===  '.'){
+        currentKey = "af";
+    }
+    else if(currentKey ===  '/'){
+        currentKey = "ag";
+    }
+    else{
+        currentKey = currentKey;
+    }
+    var activeButton = document.querySelector("." + currentKey);
+    activeButton.classList.add("pressed");  
 
-
+    setTimeout(function(){
+        activeButton.classList.remove("pressed");
+    }, 100);
+}
