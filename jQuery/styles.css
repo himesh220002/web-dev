@@ -1,0 +1,11 @@
+body{
+    background-color: rgba(23, 72, 19, 0.752);
+}
+.big-title{
+    font-size: 5rem;
+    color: purple;
+    font-family: cursive;
+}
+.margin-50{
+    margin: 50px;
+}
